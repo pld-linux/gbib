@@ -2,6 +2,7 @@
 # - regenerate ac/am
 # - desktop and icon
 Summary:	Gnome BibTeX editor
+Summary(pl):	Edytor BibTeXa dla GNOME
 Name:		gbib
 Version:	0.1.2
 Release:	0.9
@@ -17,12 +18,16 @@ BuildRequires:	gnome-libs-devel
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-
 %description
 gBib is a user-friendly Gnome BibTeX database browser and editor. It
 provides facilities for merging BibTeX files, managing key conflicts,
 and adding bibliographic citations in LyX.
+
+%description -l pl
+gBib to przyjazny dla u¿ytkownika edytor i przegl±darka baz danych
+BibTeXa, przeznaczony dla ¶rodowiska GNOME. U³atwia ³±czenie plików
+BibTeXa, radzenie sobie z konfliktami kluczy oraz dodawanie cytatów
+bibliograficznych w Lyksie.
 
 %prep
 %setup -q
