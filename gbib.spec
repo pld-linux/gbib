@@ -6,7 +6,7 @@ Summary(pl):	Edytor BibTeXa dla GNOME
 Name:		gbib
 Version:	0.1.2
 Release:	0.9
-License:	GPL ??
+License:	GPL (?)
 Group:		X11/Applications
 Source0:	ftp://ftp.seul.org/pub/gbib/src/%{name}-%{version}.tar.gz
 # Source0-md5:	b90e05dbac8be823ccb06616eaff3d02
