@@ -2,7 +2,7 @@
 # - regenerate ac/am
 # - desktop and icon
 Summary:	GNOME BibTeX editor
-Summary(pl.UTF-8):   Edytor BibTeXa dla GNOME
+Summary(pl.UTF-8):	Edytor BibTeXa dla GNOME
 Name:		gbib
 Version:	0.1.2
 Release:	0.9
